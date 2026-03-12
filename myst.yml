@@ -1,0 +1,28 @@
+version: 1
+project:
+  id: ia-etica-educacion-2025
+  title: IA Ética en Educación
+  subtitle: Guía Práctica para Docentes Chilenos
+  description: Manual interactivo sobre uso ético y pedagógico de inteligencia artificial en el aula
+  keywords: [educación, inteligencia artificial, ética, Chile, docentes, NotebookLM, ChatGPT, Claude]
+  authors:
+    - name: Claudio Rojas Monsalves
+      email: crojasmon@gmail.com
+      orcid: 0009-0007-0527-6689
+  github: https://github.com/ClaudioRojasMon/ia-etica-educacion
+  license: CC-BY-NC-SA-4.0
+  toc:
+    - file: index.md
+    - title: Capítulos
+      children:
+        - file: capitulos/01-por-que-ia.md
+        - file: capitulos/02-fundamentos-eticos.md
+        - file: capitulos/03-herramientas.md
+        - file: capitulos/04-notebooklm.md
+        - file: capitulos/05-casos-pedagogicos.md
+        - file: capitulos/06-prompt-engineering.md
+        - file: capitulos/07-limites-riesgos.md
+        - file: capitulos/08-marco-institucional.md
+site:
+  template: book-theme
+  title: IA Ética en Educación
